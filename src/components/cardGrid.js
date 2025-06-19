@@ -1,3 +1,4 @@
+import Model3d from './modelComponent'
 import skillsgroup from './skillsgroup.png'
 
 function Cardgrid () {
@@ -10,7 +11,7 @@ function Cardgrid () {
                 </p>
             
                 <div class="model-box">
-                    <spline-viewer class="model-3d" url="https://prod.spline.design/e4PWHJaXMAa7MCpG/scene.splinecode"></spline-viewer>
+                    <Model3d/>
                 </div>
     
             </div>

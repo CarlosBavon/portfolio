@@ -126,6 +126,7 @@
                 border-color 0.3s ease, 
                 box-shadow 0.3s ease;
     position: relative;
+    transition-duration: 0.5s;
     
 }
 .intro {grid-area: intro;min-height: 300px}
@@ -136,23 +137,7 @@
 .card:hover {
     border-color: transparent;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    transform: translateY(-15px);
-}
-
-.card::before{
-    content: '';
-    position: absolute;
-    inset: 0 0 0 0;
-    background: radial-gradient(circle at var(--x) var(--y),
-        rgba(150, 244, 140, 0.4),
-        transparent 40%
-    );
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: -1;
-}
-.card:hover::before{
-    opacity: 1;
+    transform: translateY(-10px);
 }
 
 .card-title {
@@ -170,7 +155,7 @@
 .model-box {
     position: absolute;
     right: 5%;
-    top: -25%;
+    top: -40%;
     width: 30rem;
     height: 30rem;
 }

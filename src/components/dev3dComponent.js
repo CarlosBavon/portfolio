@@ -1,7 +1,11 @@
-function Dev3d () {
-    return (
-        <spline-viewer url="https://prod.spline.design/ynueYApOeoeaO0mV/scene.splinecode" class="dev-3d"></spline-viewer>
-    )
+import Spline from '@splinetool/react-spline';
+
+export default function Dev3d() {
+  return (
+    <div className='dev-3d'>
+        <Spline scene="https://prod.spline.design/YEIVjfyTnDOI1Rvp/scene.splinecode" />
+    </div>
+    
+  );
 }
 
-export default Dev3d
