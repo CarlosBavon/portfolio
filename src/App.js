@@ -9,6 +9,11 @@ import Scroll from './components/scrollComponent'
 import Dev3d from './components/dev3dComponent'
 import Abouttitle from './components/abttitleComponent'
 import Cardgrid from './components/cardGrid'
+import Projtitle from './components/projectTitle';
+import Slider from './components/sliderComponent'
+import Contact from './components/contactComponent'
+import Footer from './components/footerComponent';
+
 
 
 function App() {
@@ -25,6 +30,19 @@ function App() {
       <section className='about'>
         <Abouttitle/>
         <Cardgrid/>
+      </section>
+
+      <section className='projects-section'>
+        <Projtitle/>
+        <Slider/>
+      </section>
+
+      <section>
+        <Contact/>
+      </section>
+
+      <section>
+        <Footer/>
       </section>
 
     </div>

@@ -12,6 +12,11 @@ body {
     padding: 30px;
     overflow-x: hidden;
 }
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;

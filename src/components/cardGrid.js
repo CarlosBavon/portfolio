@@ -1,5 +1,5 @@
 import Model3d from './modelComponent'
-import skillsgroup from './skillsgroup.png'
+import skillsgroup from './images/skillsgroup.png'
 
 function Cardgrid () {
     return (
