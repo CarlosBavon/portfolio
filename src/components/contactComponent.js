@@ -12,24 +12,24 @@ export default function Contact () {
 
                     <div className="contact-item">
                         <p>Email</p>
-                        <a>carlosbavon46@gmail.com</a>
+                        <p>carlosbavon46@gmail.com</p>
                     </div>
 
                     <div className="contact-item">
                         <p>Phone</p>
-                        <a>+254 (799) 657-824</a>
+                        <p>+254 (799) 657-824</p>
                     </div>
 
                     <div className="contact-item">
                         <p>Location</p>
-                        <a>Nairobi, KENYA</a>
+                        <p>Nairobi, KENYA</p>
                     </div>
 
                     <div className="social-link">
                         <p>Reach Out To Me</p>
-                        <a href="https://github.com/CarlosBavon" target="_blank">Github</a>
-                        <a href="https://www.linkedin.com/in/bavon-carlos-868775367/" target="_blank">LinkedIn</a>
-                        <a href="https://x.com/heisbav" target="_blank">Twitter</a>
+                        <a href="https://github.com/CarlosBavon" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://www.linkedin.com/in/bavon-carlos-868775367/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://x.com/heisbav" target="_blank" rel="noopener noreferrer">Twitter</a>
                     </div>
                 </div>
 
