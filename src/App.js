@@ -14,7 +14,10 @@ import Slider from './components/sliderComponent'
 import Contact from './components/contactComponent'
 import Footer from './components/footerComponent';
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   return (

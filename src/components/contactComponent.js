@@ -1,12 +1,17 @@
 export default function Contact () {
     return (
         <section className="contact-section">
-            <div className="section-header">
+            <div className="section-header" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                 <h3>Get in Touch</h3>
                 <p>Got a project idea or just feel like saying hi? I'd love to hear from you—let’s create something amazing together!</p>
             </div>
 
-            <div className="contact-grid">
+            <div className="contact-grid" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0" data-aos-duration="1500">
                 <div className="info-card">
                     <h3>Contact Info</h3>
 

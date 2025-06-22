@@ -1,6 +1,7 @@
 function Bio () {
     return (
-       <div class="bio-section">
+       <div class="bio-section" data-aos="fade-up"
+     data-aos-duration="1500">
             <p class="bio">
                 I’M A DEDICATED <span style={{color: "yellow"}}>SOFTWARE DEVELOPER WITH ONE YEAR OF EXPERIENCE</span> BUILDING RESPONSIVE WEB APPLICATIONS USING JAVASCRIPT, REACT, AND NODE.JS. I THRIVE ON SOLVING REAL-WORLD PROBLEMS THROUGH CLEAN CODE AND AM CONTINUALLY EXPANDING MY SKILLS IN FULL-STACK DEVELOPMENT.
             </p>
